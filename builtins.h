@@ -4,7 +4,8 @@ typedef enum
 	CMD_CD,		// cd
 	CMD_PWD,	// pwd
 	CMD_HIST, // history
-	CMD_EXIT	// exit
+	CMD_EXIT,	// exit
+	CMD_ECHO
 } cmd_t;
 
 /**
